@@ -1,0 +1,31 @@
+Success (1):
+application 36400 _a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147 "Kalyan Sandbox"
+
+Trace:
+2022-03-25 12:09:57.52 DEBUG application 36400 _a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147 Begin transport.
+2022-03-25 12:09:57.52 DEBUG application 36400 _a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147 Retrieving object data.
+2022-03-25 12:09:57.551 DEBUG application 36400 _a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147 App associated objects: []
+2022-03-25 12:09:57.552 DEBUG application 36400 _a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147 Invalid associated objects: []
+2022-03-25 12:09:57.552 DEBUG application 36400 _a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147 Adding valid associated objects to be exported: GlobalBindingMap[]
+2022-03-25 12:09:57.554 DEBUG application 36400 _a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147 Setting uuids of object references.
+2022-03-25 12:09:57.554 DEBUG application 36400 _a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147 Processing reference: Application.forum
+2022-03-25 12:09:57.555 DEBUG application 36400 _a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147 Processing reference: Application.parent
+2022-03-25 12:09:57.562 DEBUG application 36400 _a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@6a56f3a[
+  ContentRole[name=readers,inherit=false,allowForAll=false]
+  ContentRole[name=authors,inherit=false,allowForAll=false]
+  ContentRole[name=administrators,inherit=false,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=1:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=false,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2022-03-25 12:09:57.562 DEBUG application 36400 _a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
+2022-03-25 12:09:57.562 DEBUG application 36400 _a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2022-03-25 12:09:57.562 DEBUG application 36400 _a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147 Processing reference: ContentRole[name=administrators,inherit=false,allowForAll=false]
+2022-03-25 12:09:57.562 DEBUG application 36400 _a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2022-03-25 12:09:57.562 DEBUG application 36400 _a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2022-03-25 12:09:57.562 DEBUG application 36400 _a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2022-03-25 12:09:57.563 DEBUG application 36400 _a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147 Completing produce.
+2022-03-25 12:09:57.563 DEBUG application 36400 _a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147 Exporting binary resources.
+2022-03-25 12:09:57.563 DEBUG application 36400 _a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147 Serializing object to XML.
+2022-03-25 12:09:57.58 DEBUG application 36400 _a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147 Object transported.
