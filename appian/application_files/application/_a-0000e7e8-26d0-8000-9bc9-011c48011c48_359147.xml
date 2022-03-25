@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_a-0000e7e8-26d0-8000-9bc9-011c48011c48_359152</versionUuid>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>54c5759f-6acb-4b5b-87a8-0511f4881c7f</versionUuid>
     <application>
         <name>Kalyan Sandbox</name>
         <uuid>_a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147</uuid>
@@ -42,7 +43,9 @@
                 </item>
                 <item>
                     <type>content</type>
-                    <uuids/>
+                    <uuids>
+                        <uuid>_a-0000e7af-90d5-8000-6285-01ef9001ef90_1979358</uuid>
+                    </uuids>
                 </item>
                 <item>
                     <type>forum</type>
@@ -277,6 +280,7 @@
     <applicationDocumentation/>
     <history>
         <historyInfo versionUuid="_a-0000e7e8-26d0-8000-9bc9-011c48011c48_359152"/>
+        <historyInfo versionUuid="54c5759f-6acb-4b5b-87a8-0511f4881c7f"/>
     </history>
     <postDeploymentProcessData/>
-</applicationHaul>
+</applicationHaul><!--updated on 2022-03-25T08:10:29.304-->
