@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>_a-0000e7ec-cf62-8000-9bf8-011c48011c48_2342820</versionUuid>
+    <rule>
+        <name>ICP_emailBodySiteURL</name>
+        <uuid>_a-0000e7ec-cf62-8000-9bf8-011c48011c48_2341523</uuid>
+        <description>Common rule to get site URL in email body</description>
+        <parentUuid>620aa48d-94e8-4b16-b38d-8e68dbf22c4a</parentUuid>
+        <visibility>
+            <advertise>false</advertise>
+            <hierarchy>true</hierarchy>
+            <indexable>true</indexable>
+            <quota>false</quota>
+            <searchable>true</searchable>
+            <system>false</system>
+            <unlogged>false</unlogged>
+        </visibility>
+        <definition>"Please &lt;a href=" &amp; #"_a-0000e7ec-cf62-8000-9bf8-011c48011c48_2341516" &amp; "&gt;login&lt;/a&gt;" &amp; " to review."</definition>
+        <preferredEditor>legacy</preferredEditor>
+        <offlineEnabled>false</offlineEnabled>
+    </rule>
+    <roleMap public="true">
+        <role inherit="true" allowForAll="false" name="readers">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="true" allowForAll="false" name="authors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="true" allowForAll="false" name="administrators">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyReaders">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAuthors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAdministrators">
+            <users/>
+            <groups/>
+        </role>
+    </roleMap>
+    <history>
+        <historyInfo versionUuid="_a-0000e7ec-cf62-8000-9bf8-011c48011c48_2342820"/>
+    </history>
+</contentHaul>
