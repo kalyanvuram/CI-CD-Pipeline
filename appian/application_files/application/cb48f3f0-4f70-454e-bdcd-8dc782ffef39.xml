@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>743181e3-f75b-40ad-9ea0-e9000453b2a8</versionUuid>
+    <versionUuid>_a-0000e7f6-ac79-8000-65f2-01ef9001ef90_1049608</versionUuid>
     <application>
         <name>Kalyan Sandbox</name>
-        <uuid>_a-0000e7e8-26d0-8000-9bc9-011c48011c48_359147</uuid>
+        <uuid>cb48f3f0-4f70-454e-bdcd-8dc782ffef39</uuid>
         <description/>
         <parentUuid>SYSTEM_APPLICATIONS_ROOT</parentUuid>
         <visibility>
@@ -15,10 +15,10 @@
             <system>false</system>
             <unlogged>false</unlogged>
         </visibility>
-        <urlIdentifier>jK9iBQ</urlIdentifier>
+        <urlIdentifier>_jj1qg</urlIdentifier>
         <published>false</published>
         <public>false</public>
-        <prefix>KS</prefix>
+        <prefix>KSS</prefix>
         <associatedObjects>
             <globalIdMap>
                 <item>
@@ -39,22 +39,18 @@
                 </item>
                 <item>
                     <type>group</type>
-                    <uuids/>
+                    <uuids>
+                        <uuid>13f27fbf-b247-4ca1-beca-489e104e85b5</uuid>
+                        <uuid>d429c289-9cb4-4bb2-916f-9f121c631e00</uuid>
+                    </uuids>
                 </item>
                 <item>
                     <type>content</type>
                     <uuids>
-                        <uuid>_a-0000e7af-90d5-8000-6285-01ef9001ef90_1979358</uuid>
-                        <uuid>_a-0000e7ec-cf62-8000-9bf8-011c48011c48_2388490</uuid>
-                        <uuid>_a-0000e747-d999-8000-9be2-011c48011c48_1560059</uuid>
-                        <uuid>_a-0000e747-d999-8000-9be2-011c48011c48_1592710</uuid>
-                        <uuid>_a-0000e747-d999-8000-9be2-011c48011c48_1604197</uuid>
-                        <uuid>_a-0000e7ec-cf62-8000-9bf8-011c48011c48_2335225</uuid>
-                        <uuid>_a-0000e7ec-cf62-8000-9bf8-011c48011c48_2338478</uuid>
-                        <uuid>_a-0000e7ec-cf62-8000-9bf8-011c48011c48_2341523</uuid>
-                        <uuid>_a-0000e7ec-cf62-8000-9bf8-011c48011c48_2353262</uuid>
-                        <uuid>_a-0000e7ec-cf62-8000-9bf8-011c48011c48_2353280</uuid>
-                        <uuid>_a-0000e7ec-cf62-8000-9bf8-011c48011c48_2355300</uuid>
+                        <uuid>fe0fd66f-d9e2-4455-be26-ac2e4f42b9b7</uuid>
+                        <uuid>272a1ded-5f8a-440f-9ddd-d54ae9b02a3b</uuid>
+                        <uuid>aaebbc1b-5035-474c-b258-e78703774b22</uuid>
+                        <uuid>16835e37-5e0c-408a-b362-004ea1ddbab3</uuid>
                     </uuids>
                 </item>
                 <item>
@@ -63,7 +59,9 @@
                 </item>
                 <item>
                     <type>processModelFolder</type>
-                    <uuids/>
+                    <uuids>
+                        <uuid>10902938-95cd-45a2-8287-1b135ae41f79</uuid>
+                    </uuids>
                 </item>
                 <item>
                     <type>processModel</type>
@@ -286,16 +284,22 @@
             </role>
         </contentRoleMap>
     </roleMap>
-    <defaultApplicationObjects/>
+    <defaultApplicationObjects>
+        <object>
+            <objectKey>defaultAdminsGroup</objectKey>
+            <objectType>group</objectType>
+            <objectUuid>13f27fbf-b247-4ca1-beca-489e104e85b5</objectUuid>
+        </object>
+        <object>
+            <objectKey>defaultUsersGroup</objectKey>
+            <objectType>group</objectType>
+            <objectUuid>d429c289-9cb4-4bb2-916f-9f121c631e00</objectUuid>
+        </object>
+    </defaultApplicationObjects>
     <applicationDocumentation/>
     <history>
-        <historyInfo versionUuid="_a-0000e7e8-26d0-8000-9bc9-011c48011c48_359152"/>
-        <historyInfo versionUuid="54c5759f-6acb-4b5b-87a8-0511f4881c7f"/>
-        <historyInfo versionUuid="d31842d3-36b6-46a1-8b69-9c8aac6539c0"/>
-        <historyInfo versionUuid="aa006c3b-df13-4f0a-ad37-2b4a846615c2"/>
-        <historyInfo versionUuid="884a4893-32b4-4a4d-8c3b-1513a994c65a"/>
-        <historyInfo versionUuid="e66d6db8-be7d-4bb4-970d-9889ffb6b5ff"/>
-        <historyInfo versionUuid="743181e3-f75b-40ad-9ea0-e9000453b2a8"/>
+        <historyInfo versionUuid="193cec52-ab28-4ff9-9aff-c68e1e08320b"/>
+        <historyInfo versionUuid="_a-0000e7f6-ac79-8000-65f2-01ef9001ef90_1049608"/>
     </history>
     <postDeploymentProcessData/>
-</applicationHaul><!--updated on 2022-04-05T21:54:43.431-->
+</applicationHaul><!--updated on 2022-04-05T21:53:40.338-->

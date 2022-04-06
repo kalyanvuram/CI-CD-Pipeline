@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<groupHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>13f27fbf-b247-4ca1-beca-489e104e85b5</versionUuid>
+    <group>
+        <name>KSS Administrators</name>
+        <securityMap>SECURITYMAP_TEAM</securityMap>
+        <uuid>13f27fbf-b247-4ca1-beca-489e104e85b5</uuid>
+        <groupTypeUuid>SYSTEM_GROUP_TYPE_CUSTOM</groupTypeUuid>
+        <description>Group that all Kalyan Sandbox activity is secured to</description>
+        <delegatedCreation>false</delegatedCreation>
+        <memberPolicy>MEMBERPOLICY_CLOSED</memberPolicy>
+        <viewingPolicy>VIEWINGPOLICY_LOW</viewingPolicy>
+        <attributes/>
+    </group>
+    <members>
+        <users/>
+        <groups/>
+    </members>
+    <admins>
+        <users/>
+        <groups>
+            <groupUuid>13f27fbf-b247-4ca1-beca-489e104e85b5</groupUuid>
+        </groups>
+    </admins>
+    <ruleSet/>
+    <history>
+        <historyInfo versionUuid="13f27fbf-b247-4ca1-beca-489e104e85b5"/>
+    </history>
+</groupHaul>
